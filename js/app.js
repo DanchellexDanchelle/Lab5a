@@ -12,8 +12,8 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(x,y) { 
     let s = (x + y);
     console.log(s);
-
-    let c = (x+""+y);
+    
+    let c = ("The sum of"+" "+x+" "+ "and"+" "+y+" is"+" "+ (x+y));
     console.log(c);
 
 }
